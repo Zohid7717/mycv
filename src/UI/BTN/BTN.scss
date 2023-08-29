@@ -1,0 +1,56 @@
+.btn {
+  color: #DEDEDE;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  position: relative;
+  padding: 5px 30px;
+  height: 100%;
+  &__active{
+    border: 2px solid #2196f3;
+    box-shadow: 0 0 10px #2196f3;
+  }
+  &__line{
+    display: inline-block;
+    background: #2196f3;
+    position: absolute;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #2196f3;
+  }
+  &__line--button{
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    right: 0;
+  }
+  &__line--top{
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+  }
+  &__line--right{
+    top: 0;
+    width: 2px;
+    height: 0;
+    right: 0;
+  }
+  &__line--left{
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+  }
+}
+.btn:hover .btn__line--button{
+  width: 100%;
+}
+.btn:hover .btn__line--top{
+  width: 100%;
+}
+.btn:hover .btn__line--right{
+  height: 100%;
+}
+.btn:hover .btn__line--left{
+  height: 100%;
+}

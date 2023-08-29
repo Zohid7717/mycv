@@ -1,0 +1,77 @@
+.hero {
+  padding: 9% 0 0 0;
+
+  &__wrap {
+    display: flex;
+    gap: 20px;
+    @media (max-width: 818px){
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__content {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 28px;
+    @media (max-width: 818px){
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+
+    h1 {
+      color: #DEDEDE;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 120%;
+      letter-spacing: -0.5px;
+      @media (max-width: 818px){
+        font-size: 45px;
+      }
+    }
+
+    p {
+      color: #959595;
+      font-family: Manrope;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: -0.5px;
+    }
+
+    a {
+      display: inline-flex;
+      color: #FFF;
+      font-family: Manrope;
+      font-size: 18px;
+      font-weight: 600;
+      gap: 16px;
+      padding: 20px 20px;
+      transition: 0.5s;
+      max-width: 400px;
+      justify-content: center;
+      &:hover {
+        box-shadow: 0 0 10px #2196f3;
+      }
+    }
+  }
+
+  &__img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 818px){
+      width: 100%;
+    }
+
+    img {
+      min-width: 270px;
+      min-height: 270px;
+      max-width: 400px;
+      max-height: 400px;
+      box-shadow: 0 0 10px #2196f3;
+    }
+  }
+}
