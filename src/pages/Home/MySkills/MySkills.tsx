@@ -13,6 +13,10 @@ import BEM from '../../../assets/skills/bem-img.avif'
 import ReduxTK from '../../../assets/skills/redux-img.avif'
 import MaterialUI from '../../../assets/skills/material ui-img.avif'
 import MongoDB from '../../../assets/skills/mongodb-img.avif'
+import SkillCard from '../../../UI/SkillCard/SkillCard'
+
+import './MySkills.scss'
+import SectionTitle from '../../../UI/SectionTitle/SectionTitle'
 
 const mySkills = [
   {
@@ -88,15 +92,15 @@ const MySkills: FC = () => {
     <UContainer>
       <div className="mySkills__wrap">
         <div className="mySkills__title">
-          <img src="" alt="" />
-          <p>My Skills</p>
+          <SectionTitle title='My Skills'/>
         </div>
-        <div className="mySkills__card">
-
+        <div className="mySkills__card-wrap">
+          {
+            mySkills.map((item) => <SkillCard name={item.name} date={item.date} image={item.image} />)
+          }
         </div>
       </div>
     </UContainer>
-    MySkills
   </div>
 }
 
