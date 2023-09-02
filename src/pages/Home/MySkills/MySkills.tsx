@@ -1,18 +1,18 @@
 import { FC } from 'react'
 import UContainer from '../../../components/UContainer/UContainer'
-import HTML from '../../../assets/skills/HTML-img.avif'
-import CSS from '../../../assets/skills/CSS-img.avif'
-import GIT from '../../../assets/skills/git-img.avif'
-import SCSS from '../../../assets/skills/sass-img.avif'
-import GitHub from '../../../assets/skills/github-img.avif'
-import JS from '../../../assets/skills/JS-img.avif'
-import ReactJS from '../../../assets/skills/ReactJS-img.avif'
-import Adaptive from '../../../assets/skills/adaptive-img.avif'
-import Figma from '../../../assets/skills/figma-img.avif'
-import BEM from '../../../assets/skills/bem-img.avif'
-import ReduxTK from '../../../assets/skills/redux-img.avif'
-import MaterialUI from '../../../assets/skills/material ui-img.avif'
-import MongoDB from '../../../assets/skills/mongodb-img.avif'
+import HTML from '../../../assets/skills/html5-02-svgrepo-com.svg'
+import CSS from '../../../assets/skills/css3-02-svgrepo-com.svg'
+import GIT from '../../../assets/skills/git-svgrepo-com.svg'
+import SCSS from '../../../assets/skills/brand-sass-svgrepo-com.svg'
+import GitHub from '../../../assets/skills/github-142-svgrepo-com.svg'
+import JS from '../../../assets/skills/brand-javascript-svgrepo-com.svg'
+import ReactJS from '../../../assets/skills/react-svgrepo-com.svg'
+import Adaptive from '../../../assets/skills/responsive-svgrepo-com.svg'
+import Figma from '../../../assets/skills/figma-svgrepo-com.svg'
+import BEM from '../../../assets/skills/bem-svgrepo-com.svg'
+import ReduxTK from '../../../assets/skills/redux-svgrepo-com.svg'
+import MaterialUI from '../../../assets/skills/materialui-svgrepo-com.svg'
+import MongoDB from '../../../assets/skills/mongodb-svgrepo-com.svg'
 import SkillCard from '../../../UI/SkillCard/SkillCard'
 
 import './MySkills.scss'
@@ -55,7 +55,7 @@ const mySkills = [
     image: ReactJS
   },
   {
-    name: "Adaptive layout",
+    name: "Adaptive",
     date: "14.04.2022",
     image: Adaptive
   },

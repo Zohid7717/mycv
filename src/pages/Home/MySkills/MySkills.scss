@@ -1,6 +1,7 @@
 .mySkills{
   margin-top: 50px;
   &__card-wrap{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;

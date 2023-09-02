@@ -1,0 +1,11 @@
+.footer{
+  margin-top: 120px;
+  padding: 49px 0;
+  display: flex;
+  border-top: 1px solid #696969;
+  justify-content: end;
+  &__wrap{
+    display: inline-flex;
+    gap: 43px;
+  }
+}

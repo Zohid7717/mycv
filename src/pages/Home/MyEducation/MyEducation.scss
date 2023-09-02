@@ -1,12 +1,17 @@
 .myEdu{
   margin-top: 50px;
+  
   &__title{
     
   }
   &__card-wrap{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 405px;
   }
 }
