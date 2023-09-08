@@ -1,5 +1,5 @@
 .hero {
-  padding: 9% 0 0 0;
+  padding: 210px 0 0 0;
 
   &__wrap {
     display: flex;
@@ -21,7 +21,7 @@
     }
 
     h1 {
-      color: #DEDEDE;
+      color: var(--text-color);
       font-size: 64px;
       font-weight: 700;
       line-height: 120%;
@@ -32,7 +32,7 @@
     }
 
     p {
-      color: #959595;
+      color: var(--text-color);
       font-family: Manrope;
       font-size: 24px;
       font-weight: 600;
@@ -43,6 +43,7 @@
     a {
       display: inline-flex;
       color: #FFF;
+      background: #202020;
       font-family: Manrope;
       font-size: 18px;
       font-weight: 600;

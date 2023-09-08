@@ -9,7 +9,7 @@
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
     animation-name: move-bottom;
-    color: #DEDEDE;
+    color: var(--text-color);
   }
 }
 @keyframes move-bottom{
@@ -32,6 +32,6 @@
     padding: 0 0 0 45px;
     margin-bottom: 25px;
     font-size: 40px;
-    color: #DEDEDE;
+    color: var(--text-color);
   }
 }

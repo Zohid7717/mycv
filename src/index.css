@@ -1,4 +1,4 @@
-/*Обнуление*/
+/*----Обнуление-------*/
 * {
   padding: 0;
   margin: 0;
@@ -92,8 +92,28 @@ h6 {
   font-weight: inherit;
 }
 
+/*-----------vars---------*/
+/*----------dark theme----------*/
+
+html[data-theme='dark']{
+  --body-bg-color: #202020;
+  --icon-bg-color: #fff;
+  --icon-ds-color: rgb(255, 255, 255);
+  --text-color: #DEDEDE;
+}
+
+/*--------light theme----------*/
+
+html[data-theme='light']{
+  --body-bg-color: #F0FFF0;
+  --icon-bg-color: #000;
+  --icon-ds-color:  rgb(14, 14, 13);
+  --text-color: #181717;
+}
+
 /*--------------------*/
 body {
-  background-color: #202020;
+  background-color: var(--body-bg-color);
   font-family: 'Manrope', sans-serif;
+  transition: 0.5s;
 }

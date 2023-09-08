@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import './App.css';
 
 const Work = React.lazy(() => import('./pages/Work/Work'));
-const Contact = React.lazy(() => import('./pages/Contact/Contact'));
 
 function App() {
 
@@ -26,13 +25,6 @@ function App() {
               <p>Loading...</p>
             }>
               <Work />
-            </Suspense>
-          } />
-          <Route path='contact' element={
-            <Suspense fallback={
-              <p>Loading...</p>
-            }>
-              <Contact />
             </Suspense>
           } />
         </Route>

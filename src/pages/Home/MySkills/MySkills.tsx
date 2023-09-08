@@ -14,9 +14,10 @@ import ReduxTK from '../../../assets/skills/redux-svgrepo-com.svg'
 import MaterialUI from '../../../assets/skills/materialui-svgrepo-com.svg'
 import MongoDB from '../../../assets/skills/mongodb-svgrepo-com.svg'
 import SkillCard from '../../../UI/SkillCard/SkillCard'
+import { useTranslation } from 'react-i18next'
+import SectionTitle from '../../../UI/SectionTitle/SectionTitle'
 
 import './MySkills.scss'
-import SectionTitle from '../../../UI/SectionTitle/SectionTitle'
 
 const mySkills = [
   {
@@ -87,16 +88,17 @@ const mySkills = [
 ]
 
 const MySkills: FC = () => {
+  const { t } = useTranslation()
 
   return <div className='mySkills'>
     <UContainer>
       <div className="mySkills__wrap">
         <div className="mySkills__title">
-          <SectionTitle title='My Skills'/>
+          <SectionTitle title={ t("home-skills.content-title")} />
         </div>
         <div className="mySkills__card-wrap">
           {
-            mySkills.map((item) => <SkillCard name={item.name} date={item.date} image={item.image} />)
+            mySkills.map((item, i) => <SkillCard key={i} name={item.name} date={item.date} image={item.image} />)
           }
         </div>
       </div>

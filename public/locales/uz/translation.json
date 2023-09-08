@@ -1,0 +1,19 @@
+{
+  "header-nav": {
+    "about-me": "MEN HAQIMDA",
+    "works": "ISHLARIM"
+  },
+  "home-hero":{
+    "content-h1": "Salom, Men Zohid - Frontend Developerman!",
+    "content-text": "Men yanada malakali bo'lish uchun o'rganishga va o'sishga tayyorman. Ishonchim komilki, men jamoangiz a'zosi bo'lishim va kompaniyangizni muvaffaqiyatga erishishida o`z hissamni qo`shishim mumkin."
+  },
+  "home-skills":{
+    "content-title": "Mening Ko`nikmalarim",
+    "card-text": "Foydalanish boshlanishi:"
+  },
+  "home-edu": {
+    "content-title": "Ta'lim maskanlari",
+    "faculty": "Fakultet:",
+    "data": "O`qish davri:"
+  }
+}

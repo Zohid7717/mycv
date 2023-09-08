@@ -1,0 +1,19 @@
+{
+  "header-nav": {
+    "about-me": "ABOUT ME",
+    "works": "WORKS"
+  },
+  "home-hero":{
+    "content-h1": "Hi, I'm Zohid Frontend Developer!",
+    "content-text": "I am willing to learn and grow to become more competent. I am sure that I can become a member of your team and contribute to the success of your company."
+  },
+  "home-skills":{
+    "content-title": "My Skills",
+    "card-text": "Start use:"
+  },
+  "home-edu": {
+    "content-title": "Educational facilities",
+    "faculty": "Faculty:",
+    "data": "Study period:"
+  }
+}

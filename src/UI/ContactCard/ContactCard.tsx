@@ -2,12 +2,14 @@ import { FC } from 'react'
 
 import './ContactCard.scss'
 
-type ContactCardProps = { name: string, url: string, image: string }
+type ContactCardProps = { url: string, image: any }
 
-const ContactCard: FC<ContactCardProps> = ({ name, url, image }) => {
+const ContactCard: FC<ContactCardProps> = ({ url, image }) => {
   return <div className='contactCard'>
-    <a href={url} className="contactCard__link">
-      <img src={image} alt={name} />
+    <a href={url} target='_blank' className="contactCard__link">
+      <div className="contactCard__img">
+        {image}
+      </div>
     </a>
   </div>
 }

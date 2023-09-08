@@ -1,9 +1,5 @@
 .myEdu{
   margin-top: 50px;
-  
-  &__title{
-    
-  }
   &__card-wrap{
     position: relative;
     display: flex;
@@ -12,6 +8,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    height: 405px;
+    height: 400px;
+    @media (max-width: 1044px){
+      height: 800px;
+    }
+    @media (max-width: 701px){
+      height: 1200px;
+    }
   }
 }
